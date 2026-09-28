@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto 0 auto;
+    padding: 0 15px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.roboto-300{
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 60px;
+  
+}
+.top-nav-vrapper{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+.second-top-nav-vrapper{
+    display: flex;
+    gap: 30px;
+}
+
+.top-nav-link{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    line-height: 24px;
+}
+.hero-section{
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url(img/imagebakery.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    min-height: 80px;
+    font-weight: 500;
+}
+
+.hero-section-p{
+    min-height: 45px;
+    gap: 35px;
+}
+
+.hero-button{
+    background-color: rgb(71, 19, 19);
+    color: white;
+    border: none;
+    width: 175px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    border-color: transparent;
+}
