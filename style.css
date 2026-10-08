@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+   
 }
 
 .container {
@@ -135,11 +136,17 @@ h1{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    
-    
 }
 
 .cards{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+    padding: 35px;
+}
+
+.bottomn-cards{
      display: flex;
     justify-content: center;
     align-items: center;
@@ -149,7 +156,7 @@ h1{
 .bread-container{
     max-width: 1200px;
     width: 100%;
-    padding: 60px 20px;
+    padding: 20px 20px;
     box-sizing: border-box;
     text-align: center;
 }
@@ -157,9 +164,9 @@ h1{
     background-color: #ffffff;
     border-radius: 4px; 
     flex: 1;
-    min-width: 300px;
+    min-width: 380px;
     max-width: 380px;
-    height: 450px;
+    height: 500px;
     box-sizing: border-box;
     overflow: hidden;
     display: flex;
@@ -212,4 +219,26 @@ h1{
 
 .card-info{
     text-align: center;
+}
+
+.footer{
+    background-color: #9e5f28;
+   width: 100%;
+
+   width: 1320px;
+   margin: 0px;
+   padding: 0px;
+
+}
+
+.collumn{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footer-nav{
+
+   display: flex;
+   justify-content: space-between;
 }
